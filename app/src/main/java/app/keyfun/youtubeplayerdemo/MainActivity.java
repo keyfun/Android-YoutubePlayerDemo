@@ -5,10 +5,8 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.examples.youtubeapidemo.DeveloperKey;
-import com.examples.youtubeapidemo.YouTubeFailureRecoveryActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
 import com.google.android.youtube.player.YouTubePlayer;
-import com.google.android.youtube.player.YouTubePlayerFragment;
 import com.google.android.youtube.player.YouTubePlayerSupportFragment;
 
 public class MainActivity extends AppCompatActivity implements YouTubePlayer.OnInitializedListener, YouTubePlayer.OnFullscreenListener {
